@@ -12,7 +12,7 @@ def start():
 
   print(correctLetters)
 
-  while (not win  not loose):
+  while (not win and not loose):
     
     chute = input('Letter: ')
     
